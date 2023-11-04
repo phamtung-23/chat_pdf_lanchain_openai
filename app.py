@@ -28,7 +28,7 @@ with st.sidebar:
   st.write('Made with ❤️ by [Prompt Engineer](https://youtube.com/@engineerprompt)')
 
 # load_dotenv()
-
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 def main():
   st.header("Chat with PDF 💬")
   
