@@ -27,7 +27,7 @@ with st.sidebar:
   add_vertical_space(5)
   st.write('Made with ❤️ by [Prompt Engineer](https://youtube.com/@engineerprompt)')
 
-load_dotenv()
+# load_dotenv()
 
 def main():
   st.header("Chat with PDF 💬")
