@@ -28,8 +28,8 @@ with st.sidebar:
   st.write('Made with ❤️ by [Prompt Engineer](https://youtube.com/@engineerprompt)')
 
 # load_dotenv()
-os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 def main():
+  os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
   st.header("Chat with PDF 💬")
   
   # upload a PDF file
