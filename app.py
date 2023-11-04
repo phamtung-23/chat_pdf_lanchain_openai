@@ -15,7 +15,7 @@ import os
 
 # Sidebar contents
 with st.sidebar:
-  st.title('🤗 Hé Lô Phạm Tùng')
+  st.title('Welcome to AI chatBox🤗')
   st.markdown('''
   ## About
   This app is an LLM-powered chatbot built using:
